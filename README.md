@@ -1,10 +1,9 @@
 # CatalystML
 ## Results 
-Model Comparison (same held-out test set)
--------------------------------------------
-Model                  R2      RMSE
-Random Forest       0.855      6.07
-XGBoost             0.872      5.72
+| Model         | R² Score | RMSE |
+|---------------|----------|------|
+| Random Forest | 0.855    | 6.07 |
+| XGBoost       | 0.872    | 5.70 |
 
 Attempt-23 Physics-informed machine learning framework for predicting photocatalysts performance using chemically meaningful descriptors.
 
