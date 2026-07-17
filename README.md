@@ -6,6 +6,8 @@ Attempt-23 Physics-informed machine learning framework for predicting photocatal
 | Random Forest | 0.855    | 6.07 |
 | XGBoost       | 0.872    | 5.70 |
 
+Below is the evidence that the XGBoost model is not just fitting noise, it is distinguishing signal from a deliberately non-informative variable.
+
 ### Model Explainability (SHAP)
 
 ![SHAP Summary](figures/shap_summary.png)
