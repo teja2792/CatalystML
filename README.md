@@ -2,10 +2,11 @@
 Attempt-23 Physics-informed machine learning framework for predicting photocatalysts performance using chemically meaningful descriptors.
 
 ## Highlights 
-Built a synthetic Cu₂O dataset calibrated to real published data (Tirumala et al., ACS Catalysis 2022).
-Trained and compared two models (Random Forest, XGBoost) on physically grounded descriptors.
-Used SHAP to confirm the model learned the real non-monotonic (Mie resonance) relationship, not a spurious pattern.
-Built a recommendation step that predicted the optimal particle size within 3.4% of the paper's actual reported value — without ever being told the answer.
+
+- Built a synthetic Cu2O dataset calibrated to real published data (Tirumala et al., *ACS Catalysis* 2022).
+- Trained and compared two models (Random Forest, XGBoost) on physically grounded descriptors.
+- Used SHAP to confirm the models learned the real non-monotonic Mie-resonance relationship, not a spurious correlation.
+- Built a recommendation step that predicted the optimal particle size within 3.4% of the paper's reported value, without being told the answer.
 
 ## Scientific Basis
 
