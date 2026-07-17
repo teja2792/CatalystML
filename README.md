@@ -1,5 +1,18 @@
 # CatalystML
 Attempt-23 Physics-informed machine learning framework for predicting photocatalysts performance using chemically meaningful descriptors.
+## Scientific Basis
+
+This dataset is scoped to Cu2O only. The particle-size dependence of
+photocatalytic activity is calibrated against real measured rate constants
+from:
+
+Tirumala, R. T. A. et al. *ACS Catalysis* 2022, 12, 7975-7985.
+https://doi.org/10.1021/acscatal.2c00977
+
+The paper reports a volcano-type relationship between particle size and
+photocatalytic rate, driven by dielectric Mie resonance rather than surface
+area. This dataset reproduces that relationship rather than assuming
+"smaller particles = higher activity."
 ## Results 
 | Model         | R² Score | RMSE |
 |---------------|----------|------|
