@@ -14,10 +14,11 @@ photocatalytic rate, driven by dielectric Mie resonance rather than surface
 area. This dataset reproduces that relationship rather than assuming
 "smaller particles = higher activity."
 ## Results 
+
 | Model         | R² Score | RMSE |
 |---------------|----------|------|
-| Random Forest | 0.855    | 6.07 |
-| XGBoost       | 0.872    | 5.70 |
+| Random Forest | 0.962    | 0.02 |
+| XGBoost       | 0.951    | 0.02 |
 
 The ML pipeline recovers a real, counterintuitive structure-activity relationship (bigger particles can outperform smaller ones due to optical resonance, not surface area) directly from data
 
