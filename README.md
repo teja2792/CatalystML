@@ -19,7 +19,7 @@ area. This dataset reproduces that relationship rather than assuming
 | Random Forest | 0.855    | 6.07 |
 | XGBoost       | 0.872    | 5.70 |
 
-Below is the evidence that the XGBoost model is not just fitting noise, it is distinguishing signal from a deliberately non-informative variable.
+The ML pipeline recovers a real, counterintuitive structure-activity relationship (bigger particles can outperform smaller ones due to optical resonance, not surface area) directly from data
 
 ### Model Explainability (SHAP)
 
