@@ -22,6 +22,13 @@ area. This dataset reproduces that relationship rather than assuming
 
 The ML pipeline recovers a real, counterintuitive structure-activity relationship (bigger particles can outperform smaller ones due to optical resonance, not surface area) directly from data
 
+## Catalyst Recommendation by ML
+
+| Shape  | Reference Peak | Random Forest | RF % Off | XGBoost | XGB % Off |
+|--------|----------------|---------------|----------|---------|-----------|
+| Sphere | 145 nm         | 140 nm        | 3.4%     | 140 nm  | 3.4%      |
+| Cube   | 215 nm         | 200 nm        | 7.1%     | 175 nm  | 18.8%     |
+
 ### Model Explainability (SHAP)
 
 ![SHAP Summary](figures/shap_summary.png)
