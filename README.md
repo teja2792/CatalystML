@@ -1,5 +1,19 @@
 # CatalystML
 Attempt-23 Physics-informed machine learning framework for predicting photocatalysts performance using chemically meaningful descriptors.
+## Results 
+| Model         | R² Score | RMSE |
+|---------------|----------|------|
+| Random Forest | 0.855    | 6.07 |
+| XGBoost       | 0.872    | 5.70 |
+
+### Model Explainability (SHAP)
+
+![SHAP Summary](figures/shap_summary.png)
+
+XGBoost was chosen for SHAP analysis as the stronger-performing model.
+Surface area, particle size, and oxygen vacancy density emerge as the
+dominant drivers of predicted activity, consistent with the chemistry
+used to construct the synthetic dataset.
 
 ## Physics-Informed Machine Learning for Photocatalyst Discovery
 
