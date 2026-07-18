@@ -42,11 +42,6 @@ The ML pipeline recovers a real, counterintuitive structure-activity relationshi
 
 ![SHAP Summary](figures/shap_summary.png)
 
-XGBoost was chosen for SHAP analysis as the stronger-performing model.
-Surface area, particle size, and oxygen vacancy density emerge as the
-dominant drivers of predicted activity, consistent with the chemistry
-used to construct the synthetic dataset.
-
 ## Physics-Informed Machine Learning for Photocatalyst Discovery
 
 Machine learning has become a powerful tool for accelerating materials discovery. However, many models behave like black boxes and provide little insight into *why* a material performs well.
